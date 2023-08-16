@@ -1,5 +1,5 @@
 
-# Um container do Docker que monitora sua rede doméstica
+# Uma solução que monitora sua rede doméstica
 Usando [Prometheus](http://prometheus.io/), Grafana com [blackbox-exporter](https://github.com/prometheus/blackbox_exporter) e [speedtest -exporter](https://github.com/stefanwalther/speedtest-exporter)
 
 # Importante
