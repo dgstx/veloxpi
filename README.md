@@ -31,7 +31,6 @@ cd veloxpi/prometheus
 docker-compose up
 ```
 
-Goto [http://localhost:3030/d/velapi/veloxpi](http://localhost:3030/d/velapi/veloxpi) (change `localhost` to your docker host ip/name).
 
 ## Configuração
 Para alterar em quais hosts você faz ping, altere a seção `targets` no arquivo [/prometheus/pinghosts.yaml](./prometheus/pinghosts.yaml).
@@ -49,9 +48,8 @@ O Grafana Dashboard agora está acessível via: `http://<Host IP Address>:3030`
 nome de usuário - administrador
 senha - soma
 
-Se tudo estiver funcionando, o dash vai estar em http://localhost:3030/d/velapi/veloxpi - se nenhum tudo ficar null, tente alterar o timeduration para algo menor.
+Se tudo estiver funcionando, o dash vai estar em http://localhost:3030/d/velapi/veloxpi - se nenhum todos graficos ficararem null, tente alterar o timeduration para algo menor.
 
-<center><img src="images/dashboard.png" width="4600" heighth="500"></center>
 
 ## URLs interessantes
 
