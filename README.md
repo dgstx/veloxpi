@@ -27,8 +27,8 @@ Pronto, agora é só instalar!
 
 ```
 git clone https://github.com/dgstx/veloxpi
-cd veloxpi/prometheus
-docker-compose up
+cd veloxpi
+docker-compose up -d
 ```
 
 
