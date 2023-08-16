@@ -61,6 +61,6 @@ http://localhost:9090/graph?g0.expr=probe_http_status_code&g0.tab=1 mostra o val
 
 http://localhost:9115 terminal do exportador de caixa preta. Permite que você veja o que falhou/conseguiu.
 
-http://localhost:9696/metrics endpoint do exportador de teste de velocidade. Leva cerca de 30 segundos para mostrar seu resultado, pois executa um teste de velocidade real quando solicitado.
+http://localhost:9800/metrics endpoint do exportador de teste de velocidade. Leva cerca de 30 segundos para mostrar seu resultado, pois executa um teste de velocidade real quando solicitado.
 
 
