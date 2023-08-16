@@ -1,0 +1,22 @@
+groups:
+- name: example
+  rules:
+
+  # Alerta para qualquer instância inacessível por >5 minutos.
+  - alert: service_down
+    expr: up == 0
+    for: 2m
+    labels:
+      severity: page
+    annotations:
+      summary: "Instância {{ $labels.instance }} inativa"
+      description: "{{ $labels.instance }} da tarefa {{ $labels.job }} está fora do ar por mais de 2 minutos."
+
+  - alert: high_load
+    expr: node_load1 > 0.5
+    for: 2m
+    labels:
+      severity: page
+    annotations:
+      summary: "Instância {{ $labels.instance }} com alta carga"
+      description: "{{ $labels.instance }} da tarefa {{ $labels.job }} está com a carga alta."
