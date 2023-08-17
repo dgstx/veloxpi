@@ -26,7 +26,7 @@ Pronto, agora é só instalar!
 # Instalação Expressa
 
 ```
-git clone https://github.com/dgstx/veloxpi
+git clone https://github.com/dgstx/veloxpi.git veloxpi
 cd veloxpi
 docker-compose up -d
 ```
