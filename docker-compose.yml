@@ -67,7 +67,7 @@ services:
       - 9696
     ports:
       - 9696:9696
-    image: miguelndecarvalho/speedtest-exporter
+    image: stefanwalther/speedtest-exporter
     restart: always
     networks:
       - back-tier
