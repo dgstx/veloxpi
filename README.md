@@ -28,7 +28,7 @@ Pronto, agora é só instalar!
 ```
 git clone https://github.com/dgstx/veloxpi.git veloxpi
 cd veloxpi
-docker-compose up -d
+sudo docker-compose up -d
 ```
 
 
