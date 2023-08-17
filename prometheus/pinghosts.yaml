@@ -1,7 +1,7 @@
 - targets:  # url;humanname;routing;switch
     - http://google.com;google.com;external;internetbox
     - http://meuhub.com.br;meuhub.com.br;external;internetbox
-    - http://192.168.1.1;AsusRouter;local;internetbox
+#    - http://192.168.1.1;AsusRouter;local;internetbox
 
 
 
